@@ -826,12 +826,13 @@ export default function App() {
 <div className="mt-8">
                   <p className="text-xs text-zinc-400">Por apenas</p>
                   <div className="flex items-baseline gap-2 mt-1">
-<span className="text-sm font-bold text-zinc-400">12x de</span>
-                   <span className="text-3xl font-black text-[#FFE419]">R$ 15,20</span>
-                   <p className="text-xs text-zinc-500 mt-0.5">ou R$ 182,40 à vista</p>
+                    <span className="text-sm font-bold text-zinc-400">12x de</span>
+                    <span className="text-3xl font-black text-[#FFE419]">R$ 15,20</span>
+                  </div>
+                  <p className="text-xs text-zinc-500 mt-0.5">ou R$ 182,40 à vista</p>
 
-<a 
-                     href="https://pay.kiwify.com.br/Gs0Uxbi"
+                  <a 
+                    href="https://pay.kiwify.com.br/Gs0Uxbi"
                     target="_blank"
                     rel="noreferrer"
                     className="w-full bg-gradient-to-r from-[#FFE419] to-amber-500 hover:from-amber-400 hover:to-yellow-400 text-black font-extrabold py-4 px-6 rounded-xl text-sm tracking-wider uppercase mt-6 transition-all inline-block text-center shadow-lg hover:shadow-[0_0_30px_rgba(252,227,42,0.4)] transform hover:scale-[1.02]"
