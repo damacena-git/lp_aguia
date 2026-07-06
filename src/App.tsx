@@ -116,7 +116,7 @@ export default function App() {
       name: "Marco Lobo",
       role: "Especialista em Comunicação",
       tag: "Palestrante Convidado",
-      image: "https://images.pexels.com/photos/27086922/pexels-photo-27086922.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      image: "/Marco Lobo.jpeg",
       bio: "Especialista em comunicação persuasiva e oratória, com experiência em transformar profissionais em referências do mercado através da arte de se comunicar com impacto.",
       points: ["Comunicação persuasiva", "Oratória e apresentação", "Mensagem de marca forte"]
     }
