@@ -102,7 +102,7 @@ export default function App() {
       tag: "Anfitriã Principal",
       image: "/jackeline.webp",
       bio: "Carrega mais de 15 anos de experiência em vendas de produtos físicos e 7 anos de atuação estratégica no digital, transformando conhecimento em resultados reais. Desenvolveu métodos de reprogramação mental e execução prática para desbloquear o crescimento.",
-      points: ["Especialista em reprogramação mental", "15+ anos em vendas de alto impacto", "Membro de conselhos de alta performance"]
+      points: ["Especialista em reprogramação mental", "Alta Performance", "Vendas"]
     },
     {
       name: "Diego Damacena",
@@ -391,7 +391,7 @@ export default function App() {
                 <CheckCircle2 className="h-5 w-5 text-[#FFE419] shrink-0 mt-0.5" />
                 <div>
                   <h4 className="text-sm font-bold text-white">Credenciamento Exclusivo</h4>
-                  <p className="text-xs text-zinc-400 mt-0.5">Início às 08:30h para retirada do kit oficial de mentoria.</p>
+                  <p className="text-xs text-zinc-400 mt-0.5">Início às 8h para retirada do kit oficial de mentoria.</p>
                 </div>
               </div>
 
@@ -415,7 +415,7 @@ export default function App() {
                 <CheckCircle2 className="h-5 w-5 text-[#FFE419] shrink-0 mt-0.5" />
                 <div>
                   <h4 className="text-sm font-bold text-white">Networking Direcionado</h4>
-                  <p className="text-xs text-zinc-400 mt-0.5">Conecte-se com mais de 300 empreendedores do Sul do país.</p>
+                  <p className="text-xs text-zinc-400 mt-0.5">Conecte-se com mais de 150 empreendedores do Sul do país.</p>
                 </div>
               </div>
             </div>
@@ -555,7 +555,7 @@ export default function App() {
                      <div className="mt-6 space-y-2">
                        <span className="text-[10px] text-zinc-500 font-bold tracking-wider uppercase block">Foco da palestra:</span>
                        {speaker.points.map((pt, ptIdx) => (
-                         <div key={ptIdx} className="flex items-center gap-2 text-xs text-zinc-300">
+                         <div key={ptIdx} className="flex items-center gap-2 text-xs text-[#FFE419]">
                            <CheckCircle2 className="h-4 w-4 text-[#FFE419] shrink-0" />
                            <span>{pt}</span>
                          </div>
@@ -673,7 +673,7 @@ export default function App() {
                     <CheckCircle2 className="h-5 w-5" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-white">Pizzas Assadas na Hora no Forno a Lenha</h4>
+                    <h4 className="text-sm font-bold text-white">Pizzas Assadas na Hora</h4>
                     <p className="text-xs text-zinc-400">Massa de fermentação lenta (48h), extremamente leve e saborosa para você aproveitar sem cansaço.</p>
                   </div>
                 </div>
@@ -824,12 +824,12 @@ export default function App() {
               </div>
 
 <div className="mt-8">
-                 <p className="text-xs text-zinc-400">Por apenas</p>
-                 <div className="flex items-baseline gap-2 mt-1">
-                   <span className="text-sm font-bold text-zinc-400">12x de</span>
-                   <span className="text-3xl font-black text-[#FFE419]">R$ 10,03</span>
-                 </div>
-                 <p className="text-xs text-zinc-500 mt-0.5">ou R$ 97,00 à vista</p>
+                  <p className="text-xs text-zinc-400">Por apenas</p>
+                  <div className="flex items-baseline gap-2 mt-1">
+                    <span className="text-sm font-bold text-zinc-400">12x de</span>
+                    <span className="text-3xl font-black text-[#FFE419]">R$ 12,25</span>
+                  </div>
+                  <p className="text-xs text-zinc-500 mt-0.5">ou R$ 147,00 à vista</p>
 
 <a 
                     href="https://pay.hotmart.com/D105912983J?off=vuvbd5ey&hotfeature=51&_hi=eyJjaWQiOiIxNzc3MzgxNzE1NDkyODc0NDY4NzgzODA4ODMyODAiLCJiaWQiOiIxNzc3MzgxNzE1NDkyODc0NDY4NzgzODA4ODMyODAiLCJzaWQiOiJlODdiNTQ0MzgzZjM0MjJmOWM1YjY3ZDQ2NTJiNmUzZiJ9.1783361605734"
@@ -889,9 +889,9 @@ export default function App() {
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
             <span className="text-xs font-bold text-[#FFE419] tracking-widest uppercase bg-yellow-500/10 px-3 py-1 rounded-full">LOCALIZAÇÃO</span>
             <h2 className="text-3xl md:text-5xl font-black font-['Cinzel'] tracking-wide">Como Chegar no Águias Summit</h2>
-            <p className="text-zinc-400 font-light">
-              Fácil acesso, amplo estacionamento seguro e infraestrutura de ponta no coração de Curitiba, PR.
-            </p>
+<p className="text-zinc-400 font-light">
+               Fácil acesso, amplo estacionamento seguro <span className="text-zinc-500">(por conta do participante)</span> e infraestrutura de ponta no coração de Curitiba, PR.
+             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -1036,12 +1036,12 @@ export default function App() {
           <div className="mt-12 bg-black text-white p-8 rounded-3xl border border-zinc-800 text-center space-y-4">
             <p className="text-sm text-zinc-400">Ainda tem alguma dúvida sobre o evento ou quer fechar ingressos corporativos?</p>
             <p className="text-lg font-bold text-[#FFE419]">Nossa equipe está online para te atender agora!</p>
-            <a 
-              href="https://wa.me/5541999999999" 
-              target="_blank" 
-rel="noreferrer"
+<a 
+               href="https://wa.me/5541991889272" 
+               target="_blank" 
+               rel="noreferrer"
                className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20ba59] text-white font-extrabold text-xs px-6 py-3 rounded-xl uppercase tracking-wider transition-all"
-             >
+              >
                <MessageCircle className="h-5 w-5 fill-current" /> Falar com Consultor no WhatsApp
              </a>
             </div>
