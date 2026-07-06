@@ -831,13 +831,13 @@ export default function App() {
                  </div>
                  <p className="text-xs text-zinc-500 mt-0.5">ou R$ 97,00 à vista</p>
 
-                 <a 
-                   href="https://pay.hotmart.com/D105912983J?off=vuvbd5ey&hotfeature=51&_hi=eyJjaWQiOiIxNzc3MzgxNzE1NDkyODc0NDY4NzgzODA4ODMyODAiLCJiaWQiOiIxNzc3MzgxNzE1NDkyODc0NDY4NzgzODA4ODMyODAiLCJzaWQiOiJlODdiNTQ0MzgzZjM0MjJmOWM1YjY3ZDQ2NTJiNmUzZiJ9.1783361605734"
-                   target="_blank"
-                   rel="noreferrer"
-                   className="w-full bg-zinc-800 hover:bg-zinc-700 text-white font-extrabold py-3.5 px-6 rounded-xl text-xs tracking-wider uppercase mt-6 transition-all inline-block text-center"
-                 >
-                   Garantir Summit Pass
+<a 
+                    href="https://pay.hotmart.com/D105912983J?off=vuvbd5ey&hotfeature=51&_hi=eyJjaWQiOiIxNzc3MzgxNzE1NDkyODc0NDY4NzgzODA4ODMyODAiLCJiaWQiOiIxNzc3MzgxNzE1NDkyODc0NDY4NzgzODA4ODMyODAiLCJzaWQiOiJlODdiNTQ0MzgzZjM0MjJmOWM1YjY3ZDQ2NTJiNmUzZiJ9.1783361605734"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-full bg-gradient-to-r from-[#FFE419] to-amber-500 hover:from-amber-400 hover:to-yellow-400 text-black font-extrabold py-4 px-6 rounded-xl text-sm tracking-wider uppercase mt-6 transition-all inline-block text-center shadow-lg hover:shadow-[0_0_30px_rgba(252,227,42,0.4)] transform hover:scale-[1.02]"
+                  >
+                    Garantir Summit Pass Agora
                  </a>
                </div>
              </div>
