@@ -829,7 +829,7 @@ export default function App() {
                     <span className="text-sm font-bold text-zinc-400">12x de</span>
                     <span className="text-3xl font-black text-[#FFE419]">R$ 15,20</span>
                   </div>
-                  <p className="text-xs text-zinc-500 mt-0.5">ou R$ 182,40 à vista</p>
+                  <p className="text-xs text-zinc-500 mt-0.5">ou R$ 147,00 à vista</p>
 
                   <a 
                     href="https://pay.kiwify.com.br/Gs0Uxbi"
